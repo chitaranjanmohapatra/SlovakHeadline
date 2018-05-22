@@ -1,0 +1,398 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="copyright" content="(C) Copyright IBM Corporation and its licensors 2001, 2014."/>
+<meta name="trademark" content="IBM, the IBM logo, and Cognos are trademarks of IBM Corp., registered in many jurisdictions worldwide."/>
+<meta http-equiv="MSThemeCompatible" content="no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=5"/>
+<title>Development of core and net inflation change in comparison with corresponding period of previous year in % [sp0008ms] - IBM Cognos Viewer</title><script type="text/javascript" src="/cognosext/prompting/prmt_core.js"></script>
+<script type="text/javascript" src="/cognosext/prompting/prompting.js"></script>
+<script type="text/javascript" src="/cognosext/rv/res/viewer_en.js"></script>
+<link rel="stylesheet" type="text/css" href="/cognosext/skins/SUSR/portal/default.css"/>
+<link rel="stylesheet" type="text/css" href="/cognosext/skins/SUSR/viewer/RVReport.css"/>
+<link rel="stylesheet" type="text/css" href="/cognosext/skins/SUSR/viewer/QSRVCommonUI.css"/>
+<link rel="stylesheet" type="text/css" href="/cognosext/skins/SUSR/viewer/QSRVall.css"/>
+<link rel="stylesheet" type="text/css" href="/cognosext/skins/SUSR/viewer/CRN.css"/>
+<script type="text/javascript" src="/cognosext/cognoslaunch.js"></script>
+<script type="text/javascript" src="/cognosext/cr1/caf.js"></script>
+<script type="text/javascript" src="/cognosext/drill/CSelectionContextBuilder.js"></script>
+<script type="text/javascript" src="/cognosext/rv/viewer.standalone.core.js"></script>
+<script type="text/javascript" src="/cognosext/rv/serverrequest/requests/standalone/ViewerDispatcherEntry.js"></script>
+<script type="text/javascript" src="/cognosext/mdsrv/lineage.js"></script>
+<script language="javascript">
+//<![CDATA[
+function getFormWarpRequest()
+{
+return document.getElementById('formWarpRequest_NS_');
+}
+
+//]]>
+</script>
+<script language="javascript">
+//<![CDATA[
+oCV_NS_ = new CCognosViewer("_NS_", "/cognosext/cgi-bin/cognos.cgi");
+window.oCV_NS_.sBrowser = "chrome";
+window.oCV_NS_.sGateway = "http://web01extcog:80/cognosext/cgi-bin/cognos.cgi";
+window.oCV_NS_.setCAFContext("CAFW000000a0Q0FGQTYwMDAwMDAwMDlBaFFBQUFDb2ZUcktjTndtY2s4TmdtNnZDZVdyVlJwN0ZBY0FBQUJUU0VFdE1qVTJJQUFBQUlqQ2pJU3BOS3FHN0pJdUZJN1laNEpIZUctWXBSTG5OYVgwaVMteDYtN2g0MjQxMzR8cnY_");
+window.oCV_NS_.bIsSavedReport = true;
+window.oCV_NS_.sWebContentRoot = "/cognosext";
+window.oCV_NS_.sSkin = "/cognosext/skins/SUSR";
+window.oCV_NS_.sBrandImages = "/cognosext/skins/SUSR/branding/";
+window.oCV_NS_.sProductLocale = "en";
+window.oCV_NS_.sDirection = "ltr";
+window.oCV_NS_.bIsBidiEnabled = false;
+window.oCV_NS_.envParams = { "ui.backURL": "/cognosext/cps4/portlets/common/close.html", "cv.objectPermissions": "execute read traverse ", "ui.object": "storeID(\"i62A7B16351CE49BE992699C9B1494913\")", "ui.primaryAction": "run", "executionPrompt": "true", "cv.header": "false", "ui.action": "run", "promptOnRerun": "true", "metadataInformationURI": "/lineageUIService", "cv.id": "_NS_", "packageBase": "/content/folder[@name=\'Statistics\']/folder[@name=\'Macroeconomic statistics\']/folder[@name=\'Consumer prices and prices of production statistics\']/folder[@name=\'Balicky\']/package[@name=\'(en) sp0008ms\']", "ui.name": "Development of core and net inflation change in comparison with corresponding period of previous year in % [sp0008ms]", "CV_jsID": "window.oCV_NS_", "glossaryURI": "http://10.10.3.164:9300/p2pd/glossary.jsp", "b_action": "cognosViewer", "modelPath": "/content/folder[@name=\'Statistics\']/folder[@name=\'Macroeconomic statistics\']/folder[@name=\'Consumer prices and prices of production statistics\']/folder[@name=\'Balicky\']/package[@name=\'(en) sp0008ms\']/model[@name=\'model\']", "ui.objectClass": "report", "encoding": "UTF-8", "run.outputFormat": "HTML", "reportTitle": "IBM Cognos Viewer - Development of core and net inflation change in comparison with corresponding period of previous year in % [sp0008ms]", "viewerTitle": "IBM Cognos Viewer" };
+window.oCV_NS_.oNavLinks = {oFirst:{sText:'Top',sImg:'/viewer/images/top.gif',sImgDisabled:'/viewer/images/top_dis.gif'},oPrevious:{sText:'Page up',sImg:'/viewer/images/pageup.gif',sImgDisabled:'/viewer/images/pageup_dis.gif'},oNext:{sText:'Page down',sImg:'/viewer/images/pagedown.gif',sImgDisabled:'/viewer/images/pagedown_dis.gif'},oLast:{sText:'Bottom',sImg:'/viewer/images/bottom.gif',sImgDisabled:'/viewer/images/bottom_dis.gif'}};
+window.oCV_NS_.bEnableToolbar = true;
+window.oCV_NS_.bEnableContextMenu = true;
+window.oCV_NS_.bShowHeaderWithPrompts = false;
+window.oCV_NS_.bCanUseCognosViewerContextMenu = true;
+window.oCV_NS_.bCanUseCognosViewerRunWithOptions = false;
+window.oCV_NS_.bCanUseCognosViewerIndexSearch = true;
+window.oCV_NS_.bCanUseCognosViewerSelection = true;
+window.oCV_NS_.bCanUseCognosViewerToolbar = true;
+window.oCV_NS_.bCanUseCognosViewerConditionalSubscriptions = false;
+window.oCV_NS_.bCanUseLineage = false;
+window.oCV_NS_.bCanUseGlossary = true;
+window.oCV_NS_.UIBlacklist = "  PROPERTIES  SET_PROPERTIES_BUTTON  RV_TOOLBAR_BUTTONS_GOTO  RV_TOOLBAR_BUTTONS_KEEP_THIS_VERSION  CRN_HEADER_OPTIONS_CC  CRN_HEADER_OPTIONS_RS  CRN_HEADER_OPTIONS_CBIA  RV_TOOLBAR_BUTTONS_RUN  CC_TOOLBAR_BUTTONS_NEWJOBDEFINITION  CRN_HEADER_OPTIONS_QS  CRN_HEADER_OPTIONS_DT  CRN_HEADER_OPTIONS_MM  CRN_HEADER_OPTIONS_CBI  MORE_LINK  CRN_HEADER_SEARCH  CC_TOOLBAR_BUTTONS  CRN_HEADER_PERSONAL_MYINBOX  CRN_HEADER_PERSONAL  CC_VIEW_TABS_OPTIONS  RV_TOOLBAR_BUTTONS_SEND  RV_TOOLBAR_BUTTONS_HISTORY  RV_TOOLBAR_BUTTONS_ADD_THIS_REPORT  CRN_HEADER_OPTIONS_ES  CRN_HEADER_HELP  CRN_HEADER_OPTIONS_AS  CRN_HEADER_OPTIONS_AC  RV_TOOLBAR_BUTTONS_ADD_TO_MY_BOOKMARKS  CC_HEADER_MENU_HELP  CC_TOOLBAR_BUTTONS_NEWPAGELET  RV_TOOLBAR_BUTTONS_XLS_SINGLEXLS  RV_TOOLBAR_BUTTONS_XLS_XLS  ";
+window.oCV_NS_.addCallback("cancel",function(){ var sCVId = "_NS_"; executeBackURL(sCVId);},false);
+window.oCV_NS_.addCallback("wait",function(){window.oCV_NS_.wait();},false);
+oCVSC_NS_ = new CSelectionController("_NS_",window.oCV_NS_);
+window.oCV_NS_.rvMainWnd = new CMainWnd(window.oCV_NS_);
+window.oCV_NS_.rvMainWnd.setToolbar({"namespace":"_NS_","divId":"CVToolbar_NS_","style":"toolbar","S":[{"P":{"Y":"vertical_line"}},{"P":{"Y":"vertical_line"}},{"P":{"Y":"vertical_line"}},{"P":{"Y":"vertical_line"}},{"B":{"N":"drillDown","A":"window.oCV_NS_.getDrillMgr().rvDrillDown();","O":"Drill Down","C":"/cognosext/rv/images/action_drill_down.gif","D":"true"}},{"B":{"N":"drillUp","A":"window.oCV_NS_.getDrillMgr().rvDrillUp();","O":"Drill Up","C":"/cognosext/rv/images/action_drill_up.gif","D":"true"}},{"P":{"Y":"vertical_line"}},{"B":{"N":"runIn","ALT":"Change report format","M":{"id":"runInwindow.oCV_NS_","Y":"dropDown","IS":[{"I":{"N":"viewInHTML","A":"window.oCV_NS_.getRV().viewReport(\'HTML\');","E":"View in HTML Format","C":"/cognosext/rv/images/action_view_html.gif"}},{"I":{"N":"viewInPDF","A":"window.oCV_NS_.getRV().viewReport(\'PDF\');","E":"View in PDF Format","C":"/cognosext/rv/images/action_view_pdf.gif"}},{"I":{"N":"viewInXML","A":"window.oCV_NS_.getRV().viewReport(\'XML\');","E":"View in XML Format","C":"/cognosext/rv/images/action_view_xml.gif"}},{"I":{"N":"viewInExcel","E":"View in Excel Options","C":"/cognosext/rv/images/action_view_excel_options.gif","M":{"id":"viewInExcelwindow.oCV_NS_","Y":"cascaded","IS":[{"I":{"N":"viewInspreadsheetMLData","A":"window.oCV_NS_.getRV().viewReport(\'xlsxData\');","E":"View in Excel 2007 Data","C":"/cognosext/rv/images/action_view_excel_2007.gif"}},{"I":{"N":"viewInspreadsheetML","A":"window.oCV_NS_.getRV().viewReport(\'spreadsheetML\');","E":"View in Excel 2007 Format","C":"/cognosext/rv/images/action_view_excel_2007.gif"}},{"I":{"N":"viewInXLWA","A":"window.oCV_NS_.getRV().viewReport(\'XLWA\');","E":"View in Excel 2002 Format","C":"/cognosext/rv/images/action_view_excel_2002.gif"}},{"I":{"N":"viewInCSV","A":"window.oCV_NS_.getRV().viewReport(\'CSV\');","E":"View in CSV Format","C":"/cognosext/rv/images/action_view_csv.gif"}}]}}}]}}},{"P":{"Y":"vertical_line"}},{"B":{"N":"openWith","M":{"id":"openWithwindow.oCV_NS_","Y":"dropDown","H":"true","IS":[]}}}]});
+window.oCV_NS_.rvMainWnd.init();
+window.oCVSC_NS_.attachObserver(window.oCV_NS_.rvMainWnd);
+
+caf_tpXSSCheckingUsed = false;
+caf_tpXSSChars = "<'>";
+
+//]]>
+</script>
+</head>
+<body role="document" aria-label="IBM Cognos Viewer" topmargin="3" bottommargin="0" marginheight="3" rightmargin="5" leftmargin="5" marginwidth="3" onclick="if (typeof window.oCV_NS_ != 'undefined'){window.oCV_NS_.rvMainWnd.hideOpenMenus();}" style="overflow:auto" class="viewer">
+<div role="navigation" aria-label="Skip to report. Ctrl + Shift + 2 link." id="cvSkipToReport_NS_" style="display:none;" class="skip"><a accesskey="2" href="#RVContent_NS_">Skip to report. Ctrl + Shift + 2 link.</a></div>
+<div role="navigation" aria-label="Skip to page navigation. Ctrl + Shift + n link." id="cvSkipToNavigation_NS_" style="display:none;" class="skip"><a accesskey="n" href="#CVNavLinks_NS_">Skip to page navigation. Ctrl + Shift + n link.</a></div>
+<form role="form" aria-label="Hidden main form" action="/cognosext/cgi-bin/cognos.cgi" name="formWarpRequest_NS_" id="formWarpRequest_NS_" method="post" style="height:100%;margin:0px"><input type="hidden" name="ui.action" value="run"/>
+<input type="hidden" name="ui.backURL" value="/cognosext/cps4/portlets/common/close.html"/>
+<input type="hidden" name="cv.id" value="_NS_"/>
+<input type="hidden" name="run.outputFormat" value="HTML"/>
+<input type="hidden" name="promptOnRerun" value="true"/>
+<input type="hidden" name="ui.object" value="storeID(&quot;i62A7B16351CE49BE992699C9B1494913&quot;)"/>
+<input type="hidden" name="modelPath" value="/content/folder[@name='Statistics']/folder[@name='Macroeconomic statistics']/folder[@name='Consumer prices and prices of production statistics']/folder[@name='Balicky']/package[@name='(en) sp0008ms']/model[@name='model']"/>
+<input type="hidden" name="packageBase" value="/content/folder[@name='Statistics']/folder[@name='Macroeconomic statistics']/folder[@name='Consumer prices and prices of production statistics']/folder[@name='Balicky']/package[@name='(en) sp0008ms']"/>
+<input type="hidden" name="cv.contextInfo" value=""/>
+<table class="mainViewerTable" id="mainViewerTable_NS_" role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" height="100%"><tr><td class="topRow"><table border="0" cellpadding="0" cellspacing="0" style="width: 100%" role="presentation"><tr><td class="mainViewerHeader3" style="width: 100%"><img height="1" alt="" src="/cognosext/ps/images/space.gif"/></td><td id="CVToolbar_NS_" style="text-align: right;" role="toolbar" aria-label="Cognos Viewer Toolbar"></td></tr></table></td></tr><tr height="100%" id="mainViewerTR_NS_"><td class="mainViewerTD" height="100%" width="100%"><div id="RVContent_NS_" name="RVContent_NS_" style="position:relative; left:0; top:0; width:100%; height:100%; border:0px;" class="RVContent"><div id="CVReport_NS_" class="RVReport" style="width:100%; height: 100%;display: none;" role="main"><script language="javascript" type="text/javascript">
+function isIE()
+{
+	return (navigator.userAgent.indexOf('MSIE') != -1);
+}
+
+function getNavVer()
+{
+	if (isIE()){
+		var temp=navigator.userAgent.split('MSIE');
+		return parseFloat(temp[1]);
+	} else {
+		
+		var temp = navigator.userAgent.split('\/');
+		return parseFloat(temp[temp.length - 1]);
+	}
+}
+
+function preprint()
+{
+	if (isIE() && getNavVer() >= 5.5 && getNavVer() < 7.0) {
+		var alltags = document.images;
+		
+		for (var i=0; i < alltags.length; i++){
+			if (alltags[i].className == 'ch'){
+				if (alltags[i].srcbackup){
+					alltags[i].src = alltags[i].srcbackup;
+				}
+			}
+		}	
+	}
+}
+
+function postprint()
+{
+	if (isIE() && getNavVer() >= 5.5 && getNavVer() < 7.0) {
+		var alltags = document.images;
+		
+		for (var i=0; i < alltags.length; i++){
+			if (alltags[i].className == 'ch'){
+				if (alltags[i].srcbackup){
+					alltags[i].src = '../ps/images/space.gif';
+				}
+			}
+		}
+	}
+}
+
+if (isIE() && getNavVer() >= 5.5 && getNavVer() < 7.0) {
+	window.onbeforeprint=preprint;
+	window.onafterprint=postprint;
+}
+
+function displayChart(imageName, imgSrc, useScale, isImage)
+{
+	if (isIE() && getNavVer() >= 5.5 && getNavVer() < 7.0) {
+		var oImg = document.images[imageName];
+		var strOldImg;
+		if (imgSrc.length > 1){
+			strOldImg = imgSrc;
+		} else {
+			strOldImg = oImg.src;
+		}
+
+		var imgURL = strOldImg;
+		oImg.srcbackup = imgURL;
+		
+		
+		
+		strOldImg = strOldImg.replace(new RegExp(/%/g), "%25");
+		// BUG: IE's display filter parser is broken and incorrectly sees any closing
+		// brackets contained in an href as the end of a filter expression .. so we need to escape them
+		strOldImg = strOldImg.replace(/\x28/g, "%28");
+		strOldImg = strOldImg.replace(/\x29/g, "%29");
+		
+		var strSizing = useScale ? "scale" : "crop";
+		if ( isImage ) {
+				strSizing = "image";
+		}
+				
+		oImg.src = '../ps/images/space.gif';
+		oImg.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + strOldImg + "',sizingMethod='" + strSizing + "');";
+									
+	} else {
+		if (imgSrc.length > 1){
+			document.images[imageName].src = imgSrc;
+		}
+	}
+}			
+				</script><script type="text/javascript">
+
+try{if (typeof oCV_NS_=="undefined"){oCV_NS_=window;}}
+catch(e){oCV_NS_=window;}
+</script><link href="/cognosext/skins/../prompting/reportskin/prompting/promptCommon.css" type="text/css" rel="stylesheet"><script language="javascript" src="/cognosext/prompting/properties.js" type="text/javascript">/**/</script><script language="javascript" src="/cognosext/prompting/prmt_core.js" type="text/javascript">/**/</script><script language="javascript" type="text/javascript" src="/cognosext/prompting/res/promptingStrings_en.js">/**/</script><script language="javascript" type="text/javascript" src="/cognosext/prompting/res/promptLocale_en.js">/**/</script><script language="javascript" type="text/javascript">
+
+
+   var G_IsBidiEnabled = false;
+   var G_PRMT_HTML5PromptControls = false;
+    var G_PM_NS_ = new C_PromptManager(); oCV_NS_.preProcessControlArray=[];p_sSkinFolder="/cognosext/skins/../prompting/reportskin";p_sWebContentURI="/cognosext";oCV_NS_.gbPromptRequestSubmitted=false;oCV_NS_.bCanFinish=true;oCV_NS_.bNextPage=true;oCV_NS_.pageNavigationObserverArray=[];oCV_NS_.rangeObserverArray=[];oCV_NS_.multipleObserverArray=[];oCV_NS_.datePickerObserverArray=[];oCV_NS_.repromptObserverArray=[];oCV_NS_.hasPromptKeyDown=false;
+</script><script language="javascript" src="/cognosext/prompting/res/promptLocale_en.js" type="text/javascript">/**/</script><link rel="stylesheet" type="text/css" href="../schemas/GlobalReportStyles_10.css"><style type="text/css">
+.ml{background-image:none;background-color:#E6ECF3;color:#00385E;font-family:Arial;font-size:12px;border:1px solid #CCCCCC}
+
+.mv{font-family:Arial;font-size:12px;border:1px solid #CCCCCC}
+
+.pa{border-top:2.25pt ridge #F0F0F0;border-bottom:2.25pt double #F0F0F0;border-left:2.25pt ridge #F0F0F0;border-right:2.25pt double #F0F0F0}
+
+.xm{color:#00385E;font-family:Arial;font-size:12px;background-color:#F5F7FA;border:1px solid #CCCCCC}
+
+.at{font-family:Arial;font-size:8px}
+
+.al{font-family:Arial;font-size:8px}
+
+.xs{background-image:none;background-color:#E6ECF3;color:#00385E;font-family:Arial;font-size:12px;border:1px solid #CCCCCC}
+
+.sh{border-bottom:1px solid #CCCCCC}
+</style><script type="text/javascript">//<![CDATA[
+		window.oCVSC_NS_.setSelectionBasedFeaturesEnabled(true);window.oCVSC_NS_.setDrillUpDownEnabled(false);window.oCVSC_NS_.setModelDrillThroughEnabled(true);//]]></script>
+		<script type="text/javascript">//<![CDATA[
+		window.oCVSC_NS_.addMetaData({"1":{"q":"q1_tab"},"2":{"m":"[sp0008ms].[sp0008ms_data].[NUM_VALUE]","level":0},"3":{"h":"[sp0008ms].[sp0008ms_data]"},"4":{"d":"[sp0008ms].[sp0008ms_data]"},"5":{"r":"NUM_VALUE","dtype":11,"drill":0,"usage":2,"q":1,"h":3,"level":0},"6":{"m":"[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]->:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2018]","level":0},"7":{"h":"[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]"},"8":{"d":"[sp0008ms].[sp0008ms_rok]"},"9":{"r":"sp0008ms_rok","dtype":1,"drill":0,"usage":1,"q":1,"h":7,"level":0},"10":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[1.]","level":0},"11":{"h":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]"},"12":{"d":"[sp0008ms].[sp0008ms_mes]"},"13":{"r":"sp0008ms_mes","dtype":1,"drill":0,"usage":1,"q":1,"h":11,"level":0},"14":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[2.]","level":0},"15":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[3.]","level":0},"16":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[4.]","level":0},"17":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[5.]","level":0},"18":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[6.]","level":0},"19":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[7.]","level":0},"20":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[8.]","level":0},"21":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[9.]","level":0},"22":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[10.]","level":0},"23":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[11.]","level":0},"24":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[12.]","level":0},"25":{"m":"[sp0008ms].[sp0008ms_mes].[sp0008ms_mes]->:[TM].[sp0008ms_mes].[sp0008ms_mes].[@MEMBER].[1. - 4.]","level":0},"26":{"m":"[sp0008ms].[sp0008ms_ukaz].[sp0008ms_ukaz]->:[TM].[sp0008ms_ukaz].[sp0008ms_ukaz].[@MEMBER].[UKAZ01]","level":0},"27":{"h":"[sp0008ms].[sp0008ms_ukaz].[sp0008ms_ukaz]"},"28":{"d":"[sp0008ms].[sp0008ms_ukaz]"},"29":{"r":"Spotrebiteľské ceny (úhrn)","dtype":1,"drill":0,"usage":1,"q":1,"h":27,"level":0},"30":{"r":"NUM_VALUE","dtype":11,"drill":0,"usage":2,"q":1,"h":3,"level":0},"31":{"i":"[sp0008ms].[sp0008ms_data].[NUM_VALUE]"},"32":{"m":"[sp0008ms].[sp0008ms_ukaz].[sp0008ms_ukaz]->:[TM].[sp0008ms_ukaz].[sp0008ms_ukaz].[@MEMBER].[UKAZ02]","level":0},"33":{"r":"Regulované ceny","dtype":1,"drill":0,"usage":1,"q":1,"h":27,"level":0},"34":{"m":"[sp0008ms].[sp0008ms_ukaz].[sp0008ms_ukaz]->:[TM].[sp0008ms_ukaz].[sp0008ms_ukaz].[@MEMBER].[UKAZ03]","level":0},"35":{"r":"Jadrová inflácia","dtype":1,"drill":0,"usage":1,"q":1,"h":27,"level":0},"36":{"m":"[sp0008ms].[sp0008ms_ukaz].[sp0008ms_ukaz]->:[TM].[sp0008ms_ukaz].[sp0008ms_ukaz].[@MEMBER].[UKAZ04]","level":0},"37":{"r":"v tom: ceny potravín","dtype":1,"drill":0,"usage":1,"q":1,"h":27,"level":0},"38":{"m":"[sp0008ms].[sp0008ms_ukaz].[sp0008ms_ukaz]->:[TM].[sp0008ms_ukaz].[sp0008ms_ukaz].[@MEMBER].[UKAZ05]","level":0},"39":{"r":"čistá inflácia (bez zmien nepriamych daní)","dtype":1,"drill":0,"usage":1,"q":1,"h":27,"level":0},"40":{"q":"query_list"},"41":{"m":"[sp0008ms_p].[sp0008ms_p_poz].[sp0008ms_p_poz]->:[TM].[sp0008ms_p_poz].[sp0008ms_p_poz].[@MEMBER].[POZ01]","level":0},"42":{"h":"[sp0008ms_p].[sp0008ms_p_poz].[sp0008ms_p_poz]"},"43":{"d":"[sp0008ms_p].[sp0008ms_p_poz]"},"44":{"r":"sp0008ms_p_poz","dtype":1,"drill":0,"usage":1,"q":40,"h":42,"level":0}});//]]></script>
+		<script type="text/javascript">//<![CDATA[
+		window.oCVSC_NS_.addContextData({"1":{"u":"NUM_VALUE","m":2,"h":3,"d":4,"r":5,"q":1},"2":{"u":"2018","m":6,"h":7,"d":8,"r":9,"q":1},"3":{"u":"1.","m":10,"h":11,"d":12,"r":13,"q":1},"4":{"u":"2.","m":14,"h":11,"d":12,"r":13,"q":1},"5":{"u":"3.","m":15,"h":11,"d":12,"r":13,"q":1},"6":{"u":"4.","m":16,"h":11,"d":12,"r":13,"q":1},"7":{"u":"5.","m":17,"h":11,"d":12,"r":13,"q":1},"8":{"u":"6.","m":18,"h":11,"d":12,"r":13,"q":1},"9":{"u":"7.","m":19,"h":11,"d":12,"r":13,"q":1},"10":{"u":"8.","m":20,"h":11,"d":12,"r":13,"q":1},"11":{"u":"9.","m":21,"h":11,"d":12,"r":13,"q":1},"12":{"u":"10.","m":22,"h":11,"d":12,"r":13,"q":1},"13":{"u":"11.","m":23,"h":11,"d":12,"r":13,"q":1},"14":{"u":"12.","m":24,"h":11,"d":12,"r":13,"q":1},"15":{"u":"1. - 4.","m":25,"h":11,"d":12,"r":13,"q":1},"16":{"u":"Consumer prices (total)","m":26,"h":27,"d":28,"r":29,"q":1},"17":{"u":"2.4","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"18":{"u":"2.1","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"19":{"u":"2.4","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"20":{"u":"2.9","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"21":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"22":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"23":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"24":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"25":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"26":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"27":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"28":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"29":{"u":"2.5","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"30":{"u":"Regulated prices","m":32,"h":27,"d":28,"r":33,"q":1},"31":{"u":"0.9","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"32":{"u":"0.9","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"33":{"u":"1.2","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"34":{"u":"1.2","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"35":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"36":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"37":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"38":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"39":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"40":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"41":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"42":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"43":{"u":"1","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"44":{"u":"Core inflation","m":34,"h":27,"d":28,"r":35,"q":1},"45":{"u":"2.7","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"46":{"u":"2.3","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"47":{"u":"2.7","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"48":{"u":"3.3","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"49":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"50":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"51":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"52":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"53":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"54":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"55":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"56":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"57":{"u":"2.8","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"58":{"u":"of wich: foodstuff prices","m":36,"h":27,"d":28,"r":37,"q":1},"59":{"u":"7.3","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"60":{"u":"4.9","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"61":{"u":"6","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"62":{"u":"6.1","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"63":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"64":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"65":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"66":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"67":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"68":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"69":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"70":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"71":{"u":"6","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"72":{"u":"net inflation (without changes of indirect taxes)","m":38,"h":27,"d":28,"r":39,"q":1},"73":{"u":"1.6","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"74":{"u":"1.7","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"75":{"u":"1.9","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"76":{"u":"2.5","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"77":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"78":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"79":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"80":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"81":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"82":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"83":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"84":{"u":"66666666666","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"85":{"u":"1.9","m":2,"h":3,"d":4,"r":30,"q":1,"i":31},"86":{"u":"--","m":41,"h":42,"d":43,"r":44,"q":40}});//]]></script>
+		<script language="javascript" type="text/javascript">
+function docLocation(label, page, viewer)
+{
+  if (page === undefined || viewer === undefined) {
+    label="#"+label;
+    document.location=label;
+  }
+  else {
+    viewer.executeAction("GotoPage",{"pageNumber": page,"anchorName": label});
+  }
+}
+</script><script type="text/javascript">
+(function(){
+	var userAgent = navigator.userAgent.toLowerCase();
+	if (userAgent.indexOf ("msie") < 0)
+	{
+		var style = document.createElement ("style");
+		style.setAttribute ("type", "text/css");
+		var head = document.documentElement.getElementsByTagName ("head");
+		if (head.length > 0)
+			head.item (0).appendChild(style);  
+		if (userAgent.indexOf("applewebkit") > -1 || userAgent.indexOf("chrome") > -1 )
+		{	
+			if (document.styleSheets.length > 0)
+			{
+				style.sheet.insertRule ("*[style*='text-align:right']{	  text-align:-webkit-right !important;	  } ", 0);
+				style.sheet.insertRule ("*[style*='text-align:center']{	  text-align:-webkit-center !important;	  } ", 0);
+			}
+			for (index = 0; index < document.styleSheets.length; index++)
+			{
+				var styleSheet = document.styleSheets.item (index);
+				if ( document.styleSheets.cssRules !=null ) {
+					for (iRule = 0; iRule < styleSheet.cssRules.length; iRule++)
+					{
+						var rule = styleSheet.cssRules.item (iRule);
+						if (rule.style != null)
+						{
+							var alignment = rule.style.getPropertyValue ("text-align");
+							if (alignment != null && alignment.length > 0)
+							{
+								if (alignment == "center")
+									rule.style.setProperty ("text-align", "-webkit-center", null);
+								else if (alignment == "right")
+									rule.style.setProperty ("text-align", "-webkit-right", null);
+							}
+						}
+					}
+				}
+			}
+		}
+		else if (userAgent.indexOf("mozilla") > -1 || userAgent.indexOf("firefox") > -1)
+		{
+			if (document.styleSheets.length > 0)
+			{
+				style.sheet.insertRule ("*[style*='text-align:right']{	  text-align:-moz-right !important;	  } ", 0);
+				style.sheet.insertRule ("*[style*='text-align:center']{	  text-align:-moz-center !important;	  } ", 0);
+				
+				style.sheet.insertRule ("*[style*='text-align: right']{	  text-align:-moz-right !important;	  } ", 0);
+				style.sheet.insertRule ("*[style*='text-align: center']{  text-align:-moz-center !important;	  } ", 0);
+			}
+			for (index = 0; index < document.styleSheets.length; index++)
+			{
+				var styleSheet = document.styleSheets.item (index);
+				if ( document.styleSheets.cssRules !=null ) {				
+					for (iRule = 0; iRule < styleSheet.cssRules.length; iRule++)
+					{
+						var rule = styleSheet.cssRules.item (iRule);
+						if (rule.style != null)
+						{
+							var alignment = rule.style.getPropertyValue ("text-align");
+							if (alignment != null && alignment.length > 0)
+							{
+								if (alignment == "center")
+									rule.style.setProperty ("text-align", "-moz-center", null);
+								else if (alignment == "right")
+									rule.style.setProperty ("text-align", "-moz-right", null);
+							}
+						}
+					}
+				}
+			}
+		}	
+	}
+	else 
+	{
+		var temp=navigator.userAgent.split('MSIE');
+		var ver = parseFloat(temp[1]);
+		if( ver >= 8.0)
+		{
+			var style = document.createElement ("style");
+			style.setAttribute ("type", "text/css");
+			var head = document.documentElement.getElementsByTagName ("head");
+			if (head.length > 0)
+				head.item (0).appendChild(style);  
+			if (style.styleSheet)
+			{
+				style.styleSheet.cssText = "*[blkTblAgn='center']{ margin-left:auto;margin-right:auto; }";
+				style.styleSheet.cssText += "*[blkTblAgn='right']{  margin-left:0;margin-right:auto; }";
+			}
+		}
+	}	
+})();
+</script><table id="rt_NS_" cellpadding="0" cellspacing="0" border="0" onmousemove="if (typeof window.oCVSC_NS_ != 'undefined') window.oCVSC_NS_.pageHover(event);" onclick="window.oCV_NS_.rvMainWnd.pageClicked(event);" onkeydown="window.oCV_NS_.onKeyDown(event);" onDblClick="if (typeof window.oCVSC_NS_ != 'undefined') window.oCVSC_NS_.pageDoubleClicked(event);" onContextMenu="window.oCV_NS_.dcm(event, true)" class="pg" LID="Hlavn&aacute; str&aacute;nka_NS_"><tr class="tableRow"><td style="padding-left:20px;padding-bottom:10px;" class="ph"><div id="white" style="opacity: 4999;"></div><div id="logo"><a href="http://statdat.statistics.sk/"><img style="border: 0;" src="/cognosext/ps/images/logo.png"><h1 style="display: none;">STATdat.</h1></a></div><div style="text-align:left;" class="ta"><table style="border-collapse:collapse;width:100%;" class="tb" cellpadding="0"><tr class="tableRow"><td class="tableCell"><h2 id="title2"><span tabIndex="0" style="font-family:&quot;Arial&quot;;font-style:normal;font-weight:bold;font-size:18px;color:#00385E;height:20px;text-decoration:none;" class="tt">Development of core and net inflation change in comparison with corresponding period of previous year in %&nbsp;</span></h2><h3 id="title3"><span tabIndex="0" style="font-family:&quot;Arial&quot;;font-style:normal;font-weight:normal;font-size:12px;color:#666666;padding-left:10px;text-decoration:none;" class="tt">[sp0008ms]</span></h3></td></tr><tr class="tableRow"><td class="tableCell"><span tabIndex="0" style="font-family:&quot;Arial&quot;;font-weight:normal;font-size:14px;color:#00385E;" class="textItem">-</span></td></tr><tr class="tableRow"><td style="padding-top:4px;" class="tableCell"><span tabIndex="0" style="font-size:12px;color:#666666;padding-right:5px;" class="textItem">Last update:</span><span tabIndex="0" style="font-size:12px;color:#666666;" class="textItem">14.05.2018</span></td></tr></table></div></td></tr><tr class="tableRow"><td class="pb"><div style="display:block;margin-left:40px;margin-right:20px;" class="block"><div class="block"><div style="width:160px;" class="block"><div id="PRMT_N0x1666f700x0x1c773b28_NS_" class="clsPromptComponent"></div><select id="PRMT_SV_N0x1666f700x0x1c773b28_NS_" class="clsSelectControl pv" hasLabel="true"><option>Param_promp_filter</option><option>--------------------------------------------</option><option value="Filter" dv="Filter">Filter</option><option value="Nic" dv="Nic">Nic</option></select><script language="javascript" type="text/javascript">
+G_PM_NS_.F_Add({n:'selectValue',"@layoutClass":"selectValue","@name":"NazovPromptu","@parameter":"Param_promp_filter","@range":false,"@required":false,"@hideAdornments":true,"@multiSelect":false,"@prePopulateIfParentOptional":false,"@selectValueUI":"dropdown","@rowsPerPage":"5000","@autoSubmit":true,"@columnName":"Param_promp_filter","@style":"float:right;clear:both;visibility:hidden",c:[{n:'selectChoices',c:[{n:'selectOption',"@useValue":"Filter","@displayValue":"Filter"}]},{n:'selectOptions',c:[{n:'selectOption',"@layoutClass":"selectOptions","@useValue":"Filter","@displayValue":"Filter"},{n:'selectOption',"@layoutClass":"selectOptions","@useValue":"Nic","@displayValue":"Nic"}]}]},{_id_:'N0x1666f700x0x1c773b28_NS_',CVId:'_NS_'});
+</script><script language="javascript">
+
+function funcka()
+{
+var g = getFormWarpRequest();
+var prompt = g._oLstChoicesNazovPromptu;
+
+if(prompt.options.selectedIndex == 2)
+{
+prompt.options.selectedIndex = 3;
+}
+else
+{
+prompt.options.selectedIndex = 2;
+}
+promptAction('finish');
+}
+
+function init()
+{ 
+var fW = (typeof getFormWarpRequest == "function" ? getFormWarpRequest() : 
+
+document.forms["formWarpRequest"]);
+if (fW)
+fW._oLstChoicesPromptYears.options[0].selected = true;
+setTimeout("promptButtonFinish();",0);
+}
+</script><div id="hi" onclick="funcka()" style="cursor:pointer;">
+<body onload="init();funcka();"></body><table style="border-collapse:collapse;width:150px;height:25px;" class="tb" cellpadding="0"><tr class="tableRow"><td style="width:150px;height:25px;vertical-align:middle;text-align:center;background-image:url(&quot;?b_action=rc&amp;rsid=18184&amp;f=MHgxY2FjNTEyMDpHbHdxR3l5R2poOTI5cTRkOENoeUNsNEd3TXFHR004anF3aHdocXlH&amp;k=FAAAAKh9Ospw3CZyTw2Cbq8J5atVGnsUZxwtiQYkiywhNJQjumpq1zQaMW8_&amp;s=FAAAAKh9Ospw3CZyTw2Cbq8J5atVGnsUdcM8ejFgGm*CJin7UWRC6OoeKpU_&amp;did=81&quot;);" class="np"><span tabIndex="0" style="font-family:&quot;Arial&quot;;font-weight:bold;font-size:12px;color:#00385E;vertical-align:text-bottom;" class="textItem">Select data</span></td></tr></table></div></div><div class="block"><table style="background-color:#F6F6F6;border-collapse:collapse;margin-top:10px;margin-bottom:20px;width:300px;" class="tb" cellpadding="0"><tr class="tableRow"><td style="padding-top:10px;width:180px;" class="tableCell"><span tabIndex="0" style="font-weight:bold;margin-left:15px;" class="textItem">Year</span></td><td style="width:120px;" class="tableCell"></td></tr><tr class="tableRow"><td style="padding-bottom:10px;text-align:left;" class="tableCell"><div id="PRMT_N0x1666f700x0x1c773e6c_NS_" class="clsPromptComponent"></div><select id="PRMT_SV_N0x1666f700x0x1c773e6c_NS_" class="clsSelectControl pv" multiple><option value="[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]->:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2018]" dv="2018">2018</option><option value="[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]->:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2017]" dv="2017">2017</option><option value="[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]->:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2016]" dv="2016">2016</option><option value="[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]->:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2015]" dv="2015">2015</option><option value="[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]->:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2014]" dv="2014">2014</option><option value="[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]->:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2013]" dv="2013">2013</option></select><script language="javascript" type="text/javascript">
+G_PM_NS_.F_Add({n:'selectValue',"@layoutClass":"selectValue","@name":"PromptYears","@parameter":"param_rok","@range":false,"@required":false,"@hideAdornments":false,"@multiSelect":true,"@refQuery":"query_rok","@prePopulateIfParentOptional":false,"@selectValueUI":"listBox","@rowsPerPage":"5000","@autoSubmit":false,"@dataType":"memberUniqueName","@style":"width:150px;height:120px;float:left;clear:left","@resultsDeselectAllText":"Deselect All","@resultsSelectAllText":"Select All","@columnName":"Year",c:[{n:'selectChoices',c:[{n:'selectOption',"@useValue":"[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]-\\U003E:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2018]","@nullDisplay":"1"}]},{n:'selectOptions',c:[{n:'selectOption',"@layoutClass":"useItem","@refDataItem":"sp0008ms_rok","@useValue":"[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]-\\U003E:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2018]","@displayValue":"2018"},{n:'selectOption',"@layoutClass":"useItem","@refDataItem":"sp0008ms_rok","@useValue":"[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]-\\U003E:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2017]","@displayValue":"2017"},{n:'selectOption',"@layoutClass":"useItem","@refDataItem":"sp0008ms_rok","@useValue":"[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]-\\U003E:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2016]","@displayValue":"2016"},{n:'selectOption',"@layoutClass":"useItem","@refDataItem":"sp0008ms_rok","@useValue":"[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]-\\U003E:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2015]","@displayValue":"2015"},{n:'selectOption',"@layoutClass":"useItem","@refDataItem":"sp0008ms_rok","@useValue":"[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]-\\U003E:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2014]","@displayValue":"2014"},{n:'selectOption',"@layoutClass":"useItem","@refDataItem":"sp0008ms_rok","@useValue":"[sp0008ms].[sp0008ms_rok].[sp0008ms_rok]-\\U003E:[TM].[sp0008ms_rok].[sp0008ms_rok].[@MEMBER].[2013]","@displayValue":"2013"}]}]},{_id_:'N0x1666f700x0x1c773e6c_NS_',CVId:'_NS_'});
+</script></td><td style="padding-bottom:10px;vertical-align:top;text-align:left;" class="tableCell"><div class="clsPromptComponent" pt="btn"><button type="button" name="finishN0x1666f700x0x1c773ff8_NS_" id="finishN0x1666f700x0x1c773ff8_NS_" class="bp" onmouseover="this.className = 'bp bph'" onmouseout="this.className = 'bp'" onclick="oCV_NS_.promptAction('finish')" style="margin-left:20px;float:left"><span tabIndex="0" class="textItem">OK</span></button></div><script language="javascript" type="text/javascript">
+			var promptButtonfinishN0x1666f700x0x1c773ff8_NS_ = new CPromptButton (document.getElementById("finishN0x1666f700x0x1c773ff8_NS_"), PROMPTBUTTON_FINISH, true, "_NS_");
+			oCV_NS_.pageNavigationObserverArray = oCV_NS_.pageNavigationObserverArray.concat("promptButtonfinishN0x1666f700x0x1c773ff8_NS_");
+			oCV_NS_.notify();
+	</script></td></tr></table></div></div><table style="border-collapse:collapse;margin-top:15px;" class="xt" LID="Crosstab2_NS_" cellpadding="0"><tr><td style="vertical-align:middle;text-align:center;" class="c_NS_60 xm" rowspan="2" uid="60" name="c_NS_60" type="columnTitle" ctx="1"><span tabIndex="0" class="textItem">Indicator</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_62 ml" colspan="13" uid="62" name="c_NS_62" type="columnTitle" ctx="2"><span tabIndex="-1" class="textItem" ctx="2">2018</span></td></tr><tr><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="3:2"><span tabIndex="-1" class="textItem" ctx="3:2">1.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="4:2"><span tabIndex="-1" class="textItem" ctx="4:2">2.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="5:2"><span tabIndex="-1" class="textItem" ctx="5:2">3.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="6:2"><span tabIndex="-1" class="textItem" ctx="6:2">4.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="7:2"><span tabIndex="-1" class="textItem" ctx="7:2">5.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="8:2"><span tabIndex="-1" class="textItem" ctx="8:2">6.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="9:2"><span tabIndex="-1" class="textItem" ctx="9:2">7.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="10:2"><span tabIndex="-1" class="textItem" ctx="10:2">8.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="11:2"><span tabIndex="-1" class="textItem" ctx="11:2">9.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="12:2"><span tabIndex="-1" class="textItem" ctx="12:2">10.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="13:2"><span tabIndex="-1" class="textItem" ctx="13:2">11.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="14:2"><span tabIndex="-1" class="textItem" ctx="14:2">12.</span></td><td style="white-space:nowrap;text-align:center;" class="c_NS_65 ml" uid="65" name="c_NS_65" type="columnTitle" ctx="15:2"><span tabIndex="-1" class="textItem" ctx="15:2">1. - 4.</span></td></tr><tr><td style="white-space:nowrap;" class="c_NS_68 ml" uid="68" name="c_NS_68" type="columnTitle" ctx="16"><span tabIndex="-1" class="textItem" ctx="16">Consumer prices (total)</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="17::16::3:2"><span tabIndex="-1" class="textItem">2,4</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="18::16::4:2"><span tabIndex="-1" class="textItem">2,1</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="19::16::5:2"><span tabIndex="-1" class="textItem">2,4</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="20::16::6:2"><span tabIndex="-1" class="textItem">2,9</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="21::16::7:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="22::16::8:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="23::16::9:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="24::16::10:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="25::16::11:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="26::16::12:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="27::16::13:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="28::16::14:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_70 mv" uid="70" name="c_NS_70" type="datavalue" ctx="29::16::15:2"><span tabIndex="-1" class="textItem">2,5</span></td></tr><tr><td style="white-space:nowrap;" class="c_NS_73 ml" uid="73" name="c_NS_73" type="columnTitle" ctx="30"><span tabIndex="-1" class="textItem" ctx="30">Regulated prices</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="31::30::3:2"><span tabIndex="-1" class="textItem">0,9</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="32::30::4:2"><span tabIndex="-1" class="textItem">0,9</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="33::30::5:2"><span tabIndex="-1" class="textItem">1,2</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="34::30::6:2"><span tabIndex="-1" class="textItem">1,2</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="35::30::7:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="36::30::8:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="37::30::9:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="38::30::10:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="39::30::11:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="40::30::12:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="41::30::13:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="42::30::14:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_75 mv" uid="75" name="c_NS_75" type="datavalue" ctx="43::30::15:2"><span tabIndex="-1" class="textItem">1,0</span></td></tr><tr><td style="white-space:nowrap;" class="c_NS_78 ml" uid="78" name="c_NS_78" type="columnTitle" ctx="44"><span tabIndex="-1" class="textItem" ctx="44">Core inflation</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="45::44::3:2"><span tabIndex="-1" class="textItem">2,7</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="46::44::4:2"><span tabIndex="-1" class="textItem">2,3</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="47::44::5:2"><span tabIndex="-1" class="textItem">2,7</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="48::44::6:2"><span tabIndex="-1" class="textItem">3,3</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="49::44::7:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="50::44::8:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="51::44::9:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="52::44::10:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="53::44::11:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="54::44::12:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="55::44::13:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="56::44::14:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_80 mv" uid="80" name="c_NS_80" type="datavalue" ctx="57::44::15:2"><span tabIndex="-1" class="textItem">2,8</span></td></tr><tr><td style="white-space:nowrap;" class="c_NS_83 ml" uid="83" name="c_NS_83" type="columnTitle" ctx="58"><span tabIndex="-1" class="textItem" ctx="58">of wich: foodstuff prices</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="59::58::3:2"><span tabIndex="-1" class="textItem">7,3</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="60::58::4:2"><span tabIndex="-1" class="textItem">4,9</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="61::58::5:2"><span tabIndex="-1" class="textItem">6,0</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="62::58::6:2"><span tabIndex="-1" class="textItem">6,1</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="63::58::7:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="64::58::8:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="65::58::9:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="66::58::10:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="67::58::11:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="68::58::12:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="69::58::13:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="70::58::14:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_85 mv" uid="85" name="c_NS_85" type="datavalue" ctx="71::58::15:2"><span tabIndex="-1" class="textItem">6,0</span></td></tr><tr><td style="padding-left:40px;white-space:nowrap;" class="c_NS_88 ml" uid="88" name="c_NS_88" type="columnTitle" ctx="72"><span tabIndex="-1" class="textItem" ctx="72">net inflation (without changes of indirect taxes)</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="73::72::3:2"><span tabIndex="-1" class="textItem">1,6</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="74::72::4:2"><span tabIndex="-1" class="textItem">1,7</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="75::72::5:2"><span tabIndex="-1" class="textItem">1,9</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="76::72::6:2"><span tabIndex="-1" class="textItem">2,5</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="77::72::7:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="78::72::8:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="79::72::9:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="80::72::10:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="81::72::11:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="82::72::12:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="83::72::13:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="84::72::14:2"><span tabIndex="-1" class="textItem">.</span></td><td class="c_NS_90 mv" uid="90" name="c_NS_90" type="datavalue" ctx="85::72::15:2"><span tabIndex="-1" class="textItem">1,9</span></td></tr></table><div class="block"><table style="border-collapse:collapse;margin-top:15px;width:740px;" class="ls" LID="List1_NS_" cellpadding="0"><tr><td style="font-family:&quot;Arial&quot;;font-style:italic;font-weight:bold;font-size:12px;color:#00385E;background-color:#FFFFFF;background-image:none;border-style:none;line-height:8px;text-align:left" class="c_NS_95 lt" cid="0" uid="95" name="c_NS_95" type="columnTitle"><span tabIndex="0" class="textItem">Note:</span></td></tr><tr><td style="font-family:&quot;Arial&quot;;font-style:italic;font-size:12px;border-style:none;text-align:left" class="c_NS_98 lc" cid="0" uid="98" name="c_NS_98" type="datavalue"><span tabIndex="-1" class="textItem" ctx="86">--</span></td></tr></table></div><div class="block" LID="VysvetlivkySymbolov_NS_"><table style="border-collapse:collapse;width:850px;" class="tb" LID="VysvetlivkySymbolovTab_NS_" cellpadding="0"><tr class="tableRow"><td style="padding-top:30px;padding-bottom:3px;height:20px;vertical-align:top;" class="tableCell" colspan="5"><span tabIndex="0" style="font-family:&quot;Arial&quot;;font-style:normal;font-weight:bold;font-size:12px;color:#00385E;" class="textItem">Explanations to symbols:</span></td></tr><tr class="tableRow"><td style="padding-top:1px;padding-bottom:1px;vertical-align:top;" class="tableCell"><span tabIndex="0" style="font-weight:bold;" class="cls1">Macron (–)</span></td><td style="padding-top:1px;padding-bottom:1px;width:250px;vertical-align:top;" class="tableCell"><span tabIndex="0" class="cls1">event does not exist</span></td><td style="width:20px;" class="tableCell"></td><td style="padding-top:1px;padding-bottom:1px;width:120px;vertical-align:top;" class="tableCell"><span tabIndex="0" style="font-weight:bold;" class="cls1">*Of which</span></td><td style="padding-top:1px;padding-bottom:1px;width:250px;vertical-align:top;" class="tableCell"><span tabIndex="0" class="cls1">refers to complete selection of items</span></td></tr><tr class="tableRow"><td style="padding-top:1px;padding-bottom:1px;vertical-align:top;" class="tableCell"><span tabIndex="0" style="font-weight:bold;" class="cls1">Cross (x)</span></td><td style="padding-top:1px;padding-bottom:1px;width:250px;vertical-align:top;" class="tableCell"><span tabIndex="0" class="cls1">means that the entry is not possible for logical reasons</span></td><td class="tableCell"></td><td style="padding-top:1px;padding-bottom:1px;width:120px;vertical-align:top;" class="tableCell"><span tabIndex="0" style="font-weight:bold;" class="cls1">Of which</span></td><td style="padding-top:1px;padding-bottom:1px;width:250px;vertical-align:top;" class="tableCell"><span tabIndex="0" class="cls1">refers to incomplete selection of items</span></td></tr><tr class="tableRow"><td style="padding-top:1px;padding-bottom:1px;vertical-align:top;" class="tableCell"><span tabIndex="0" style="font-weight:bold;" class="cls1">Dot (•)</span></td><td style="padding-top:1px;padding-bottom:1px;vertical-align:top;" class="tableCell"><span tabIndex="0" class="cls1">in the place of a number denotes that the figure is not available or reliable</span></td><td class="tableCell"></td><td style="padding-top:1px;padding-bottom:1px;width:120px;vertical-align:top;" class="tableCell"><span tabIndex="0" style="font-weight:bold;" class="cls1">Break symbol</span></td><td style="padding-top:1px;padding-bottom:1px;vertical-align:top;" class="tableCell"><span tabIndex="0" class="cls1">refers to that the comparability of dataseries is cut off due to methodology oranother reason</span></td></tr><tr class="tableRow"><td style="padding-top:1px;padding-bottom:50px;width:120px;height:20px;vertical-align:top;" class="tableCell"><span tabIndex="0" style="font-weight:bold;" class="cls1">Capital D (D)</span></td><td style="padding-top:1px;padding-bottom:50px;vertical-align:top;" class="tableCell"><span tabIndex="0" class="cls1">means that it is not possible to publish the figure because of its individual character</span></td><td class="tableCell"></td><td style="padding-top:1px;padding-bottom:50px;width:120px;vertical-align:top;" class="tableCell"><span tabIndex="0" style="font-weight:bold;" class="cls1">Zero(0; 0,0; 0,00)</span></td><td style="padding-top:1px;padding-bottom:50px;vertical-align:top;" class="tableCell"><span tabIndex="0" class="cls1">denotes a lower value than the smallest unit expressible in the table in an absolute form</span></td></tr><tr class="tableRow"><td class="tableCell"></td><td class="tableCell"></td><td class="tableCell"></td><td class="tableCell"></td><td class="tableCell"></td></tr><tr class="tableRow"><td style="padding-bottom:5px;" class="tableCell" colspan="5"><span tabIndex="0" style="font-family:&quot;Arial&quot;;font-style:normal;font-weight:bold;font-size:12px;color:#666666;" class="textItem">Contact to Information Services :</span><span tabIndex="0" style="font-weight:bold;color:#666666;" class="textItem">&nbsp; &nbsp; tel.</span><span tabIndex="0" style="color:#666666;" class="cls1">&nbsp;+421 2 50 236 339; +421 2 50 236 335; &nbsp; &nbsp;</span><span tabIndex="0" style="font-weight:bold;color:#666666;" class="textItem">e-mail:&nbsp;</span><a style="color: #666666"; href="mailto:info@statistics.sk" title="" target="">info@statistics.sk</a><span tabIndex="0" class="textItem">&nbsp; &nbsp;&nbsp;</span><a target="_blank" title="Conditions for use data the SO SR" href="https://slovak.statistics.sk:443/wps/portal?urile=wcm:path:/Obsah-SK/static-content/onas/Webova-stranka/Podmienky-pouzivania" style="color: #666666">Conditions for use data the SO SR</a></td></tr><tr class="tableRow"><td style="padding-bottom:10px;" class="tableCell" colspan="5"><a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License (CC - BY)</a>&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" align="absmiddle" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a> </td></tr></table><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48310942-1', 'statistics.sk');
+  ga('send', 'pageview');
+
+</script></div></div></td></tr><tr class="tableRow"><td style="padding-top:10px;" class="pf"><table style="border-top:0.250000pt solid #CCCCCC;border-collapse:collapse;margin-top:30px;width:100%;height:25px;" class="tb" cellpadding="0"><tr class="tableRow"><td style="width:25%;vertical-align:bottom;text-align:left;" class="tableCell"><span tabIndex="0" style="padding-right:5px;" class="textItem">Page:</span><span tabIndex="0" class="textItem">1</span></td><td style="width:50%;vertical-align:bottom;text-align:center;" class="tableCell"><span tabIndex="0" class="textItem">© Statistical Office of the Slovak Republic</span></td><td style="width:25%;vertical-align:bottom;text-align:right;" class="tableCell"><span tabIndex="0" class="textItem">May 21, 2018</span></td></tr></table></td></tr></table><script type="text/javascript">
+(function(){
+	var userAgent = navigator.userAgent.toLowerCase();
+	if ( (userAgent.indexOf("mozilla") > -1 && userAgent.indexOf ("msie") < 0) || (userAgent.indexOf("firefox") > -1)) {
+		var element = document.getElementById("rt_NS_");
+		var elmList = element.getElementsByTagName("*");
+		for (var index = 0 ; index < elmList.length; index++){
+			var elm = elmList.item(index);
+			var sDisplay = elm.style.height && elm.style.width && document.defaultView.getComputedStyle(elm, null).getPropertyValue("display");
+			var bIsTable = (elm.nodeName === "TABLE");
+			if (sDisplay === "inline"){
+				elm.style.display = (bIsTable?"inline-table":"inline-block");
+			}
+			else if (sDisplay === "block" && bIsTable){
+				elm.style.display = "table";
+			}
+		}
+	}
+})();
+</script><script type="text/javascript">			
+(function(){
+	var userAgent = navigator.userAgent.toLowerCase();
+	if ( (userAgent.indexOf("mozilla") > -1 && userAgent.indexOf ("msie") < 0) || (userAgent.indexOf("firefox") > -1)) {
+		var element = document.getElementById("rt_NS_");
+		var elmList = element.getElementsByTagName("table");
+			
+			for (var index = 0 ; index < elmList.length; index++){
+				var elm = elmList.item(index);					
+				if (document.defaultView.getComputedStyle (elm, null).getPropertyValue ("table-layout") === "fixed"){									
+					for ( var i = 0, row; row = elm.rows[i]; i++){
+						for (var j = 0, cell; cell = row.cells[j]; j++) {     
+								cell.style.overflow = "hidden";								
+						} 
+					}																		
+				}					
+			}
+	}
+})();
+</script></div></div></td></tr><tr id="CVNavLinks_Container_NS_"><td role="navigation" aria-label="Navigation links" id="CVNavLinks_NS_" aria-labelledby="CVNavLinks_label_NS_" width="100%" align="left" valign="bottom" class="portlet-table-text" style="display:none; height: 15px"><span id="CVNavLinks_label_NS_" style="display:none; visibility:hidden">Navigation links</span></td></tr></table></form><form role="form" aria-label="Hidden form" name="formBackJax_NS_" id="formBackJax_NS_" style="display:none;"><input type="hidden" name="state" value=""></input><input type="hidden" name="result" value=""></input><input type="hidden" name="working" value=""></input></form><script language="javascript">
+//<![CDATA[
+(function(oCV, sNamespace){
+var sOldOnLoad=sNamespace+'originalOnLoad';function _onLoad() {if (oCV) {oCV.initViewer({ "m_sStatus": "complete", "m_sConversation": "CAFS6000000b98AhQAAACofTrKcNwmck8Ngm6vCeWrVRp7FAcAAABTSEEtMjU2IAAAAK3nsCpsMkQej6wYJmFlZvtfIUh6L7W4jCuikWOtAYHHH4sIAAAAAAAAAOVZ2XLbuBJ9zv2KjG-NVqqY**bJpIabFlubtduulAsEQYkWNwOktXz9BUVJkRzHi*y4purqJTTQDZw*3Wh0I5*djJwk2A8BXnTQbYZI*nEeBhE5oRN-H03SNDlhGBfdoSBOED6G8TiKCf0nZAicoBAQxvGpKCMwR2vFOfG3irPZ7HgmHMd4zPAsyzGjRr27UvvkRyQFEURUi-gn6SJBfx-lWABZRHCyhnL05T8f8t-nfCYCIdoRnpMTkmI-Gh99wVn0mdmI7KrEzg2CaRukk3u7EAQwnOQTXbpCgForwaMvJI0xqll-HPkyrysGJwsSZ9qiZtiaxsuaZmoGJ2qixglHfxZbfttib*Mk9eOI7OzabentT3bTPNExBosNV5vRLWFrUo-pNIlBsmIu-2BQBGOXYqU0b5cC*VK9rVHFplec9HXD24fPforCe7ZTtlorSSOOAwSirfCDNO9p2FEWUrpRmuGolaVJlg4nKNLvgB8AJ0DfOWG95B0IsnuuczZ7pzhb662ktsCZHPmzzOiuoqCg9aWmxCsjyjEOQfpc9Pc9*ZA7tsF5xX1zxvd27MRwtdeolzEYhyhK943-cBA9xTl6oaN3lQqCQDADC1KLYJC5qL2XJ97V2-vIiqNwkD1pCuAkJ3mzynPNyMc2h7BYq1Fr2AcZM0YRwj4scOnRot*pPW7LTpw8lpEhcgAD41VmTUn*lVJDGyACY4RNajf6RsV-iT*OAD3ILzm1GxAsz4ns6qeriiXopq6wlsnLCi*WWUvlZVsvs5ot6YYkcXkeFVmlkJcEURU53hJ4QRJkvhhk5TLNrbqtlvUyTbSaZWqirimcpYq6oLMmKwuqaVmcotiiIXFcWdN1zVYk2ZQNluNV7tUhVYvSQ6JpfXEOgZ-2JhiRSRy4L6DTz3cVXh9C9FZdRTNy6df7R9Jqdv7sfJCP0ettF-EaCkgSlqMrUSAnmsCyTMInLkMQvgtQyrg*SUAKJ9fXv-z66y-X1xglMU7PM4QXm6GXXN8bHc9RPcXleQB5mUWaq3KyxEuIysmqrDkaL7qSqjhQAI6ryBoLgAs8gDRPknmIJHGzTgLglLKzh2dDHOPRwED46p*cnb9-76Yg9UnqQ-L713tTDQBxjKhaHPrwI-mxoEmdk4UIf6QxCBH5CCJ38xl79Ct2M5h76LE1DBD4cLqg42vwm4k-UPTnR5LQk6mGVG1jjggAkliHhxIPJCRqwJNczpVceraRokJRgw6nQRUgBfGcp-CQk1iJRzyrqMDTeLhZB0AYZ9G*6zienmNRUVlpM8LznOwJAtIUURBdh3MhVGVXcQCrQREKjiPK1GN0QAJQdICmChBwgqwix5U4VuQ367yuuijKHBqsICFZAPKhA6uMvTVeclgeUC-WjeLolbVTkwIY5LqHlU9zErQBpmIpwuQt66fNSitsV8pjNdSe6I7cU*nPHBRFfwd5DyB-*g6c*ZEbz45jc-CAC*474e1gz5DTieOHku3TkJkiw29z9TtBNgdd86247prvCr1PkGnpPb2LVsn0oRh-Gv0Pit6fSPjKzQMfzRCuWQdhvm52H0qcPw9zPkPvd4hqD1VQ-0LANDTKWRC0cZiacZj4AToMuAcC8qzweF2mr4NonNEr-jV9cj2G4Pld-s-pk1H0prQ8p-t6*OLrd*oHdE747pjqvg7zoe82tCgMk-dt21-L87e4e0nRdFiTQ9HThoK2c8Vdtdm0aJZpD4JwmR7y7oJQwdf3bM9y4mGGkBXEnQaN1tuIEN-xAz9dlNGq6392ubYbBz-KVf8e2x3f8nFxWYNgh4K98Q0FdpS-Wr6kY38ZE*sX4uItePd5ONkWze-7Qrzdt6ir*ccfiveln*2tVUdwvUo2154fUP237gwosHCFqUZBP35z5OLED5MAtXeVvrvn-fyFk-h3T2fAreT9JfL3iQAsHialvEPEWvC*fkZ*QOiuLhV62wLhQCev1K5xPP3-8O0PfXO1eSX5erz9zGm5-*en38bpXydXvcYTcsdX-zTshmF36BfPcurX17u9mP*WcnYTEUkQ9D2-uOneNxcVr6ndXQBX7NcjZg9eClJkgRQ8-nz4W5D*tRXNia6KpKavf4zK9XpDxmnoS*1MiRv8uWRpyBabMTSAFpsVxczOXd71J-N*OKqw-G0tXAzxUpkRxXL0Jt*QrZpd74oC6Z-BuKY7XvM0tcas0B*RoHc*Je1lA7HJRZXYTYyt0qmlm-pQkM1wakxbvOG7Qm8WuARjTz7Tqz3DL8nn1ZuZWbmrmRdnpVZ-cTYe8kEL4bR7M*gHc1j2RvLtrRQMXTjSBnHfHdh1o39Zm7VgXyt7t60sk0e1ZtaW2pdyvXPXap0DI7ydR6Vz56wXwsrotKfUG67W5SslVmtZzGTOdruuYy*H88aIt0oTELJGvGiWx9ZFyrjKbFxWoaEzbaMSzxsZA9jEEJZjF3dO7btsNE*wMLhbovKEUGL4GwVbNkON7JFhGyG14jsgavZPIwvVnc4FlFt2NbzpBNXS8LZ0x3StUQNH1nnWGDbb3tQcnSZnk3G91ZqpXcIzA7l8YyhKL5lyN2VrrHlGJ6qTBXC0jj6*aDvRMIslyTp1wIXQawTEqVm3N1anurSUKVPmFzJ-cXauV0uL8axkDz1RvGDlQJvUzlCWZBI909UbpawqrkgWk2heaV06S6Sf4UTp3OiRUTYMXwuCBahWovlS5PhWE46bkzGZLBZ2U6-wjOcx3b6WDUkrOz9VO1EzMsSFr9cr-cvBMPFvSXvB97U2cHr86HKZmuOpodp2vzSPTy9bsC5Exi1XmzMkFevSZBqZLE4CJ*gmQ18M45KIZoNWLx5Ml0EXkP4Ui8kZVzkdMNkFlpIp9sutQWTbWK8tx3Z1VAmXVamB*uCmCprLaFzyRq6oD89LPdo5GzTe88PA7J2GIgFsh4oDts4Ke-*j9*V-kSPBig4gAAA_", "m_sTracking": "CAFS600000017cAhQAAACofTrKcNwmck8Ngm6vCeWrVRp7FAcAAABTSEEtMjU2IAAAACP*7szo3EDVDhc9vBmFuOL3XroAFkR2WsIztK0ZB1OUH4sIAAAAAAAAAHWRsW6DMBCG5-YpKvZiSKhEEGGhklWpTFm6ErhgR2ADd4nh7evEVUQr6sWS7-v*s8-p8YJJpdUVRixJapVrRTDRy9S1ChNb3XuCqE8Yq*EKre5h9CvdKI126xhWAroS2VFalG2Z9yNOKB*iMcY3W1*PDdsEQci*is-DXXuVCqlUFVgLZUJzD3vvnwt52fPTbaW3enk6SSVpPtAIqiGx0CdMpLL0WxAEKVuDl0Gy-q0ijVI1XsZbM-B55mex2*yGqI5zMedtxE0xcF7E58EII4aZuw6yXmYqXcPH*3puHDrDMUurH3UFiH-F*1vCOIwjJz6wpWuHSBdc72g-qW*BwOmOdK47WRl19g0iMyFGFQIAAA__", "m_aSecRequests": [ "print", "saveAs", "email", "render", "getContext", "lineage", "release" ], "m_sCAFContext": "CAFW000000a0Q0FGQTYwMDAwMDAwMDlBaFFBQUFDb2ZUcktjTndtY2s4TmdtNnZDZVdyVlJwN0ZBY0FBQUJUU0VFdE1qVTJJQUFBQUlqQ2pJU3BOS3FHN0pJdUZJN1laNEpIZUctWXBSTG5OYVgwaVMteDYtN2g0MjQxMzR8cnY_", "outputFormat": "HTML", "m_sParameters": "CAFS6000000210AhQAAACofTrKcNwmck8Ngm6vCeWrVRp7FAcAAABTSEEtMjU2IAAAABWnnT94AME70oZB4EoBtwQZL4WIKju*cWBw1ceyz0uPH4sIAAAAAAAAAOVUTU-CQBQ8668wPXijW*BCamlEg4mJVSLEmDSELGUtG-cr*7Z8-Hu3BUqpgAe92Utf983MvpmXNJhm4CusMSeGaLhacSbAt4ddZ26M8hGakQVhUhHtJjIVEuyLI0jmhGNAU2qhqI2cLXEFtCQul0t32XalTlHL85roPXoaFrQGFWCwSIhlAfXNWpGuM3zpDRr953u-pzVe7-R2p6Xo9mLXtkFiVajnBSIikTMqUjtKKYVzqVEhf2DzDbOMxK2xE15eFE9ADeGVYb6jS*hFkDeFbVXwK-DBaHu7Ew5y2kRpydXkgzLLD9COcaixyHXPJHDGBi9merRDx829i*M*gHLFyKBKqjA2o1CRsAzoouZpKiUjWDih0RnZ2CiRdYkZBcXw*ngoD5UgtsA6P4MTgVa5FlQxi3K3*0xRGWq51gPEHy65oE20-Pwfuz25mxiU53kdDmO3LPNY6p*N69Tc*PEo*gHnxrdRP7rrv9qq5TU749*vfdPf-*HCL6NeiCXyBAAA", "m_sActionState": "", "envParams": { "ui.primaryAction": "run" } });oCV.updateOutputForA11ySupport();}if (typeof window[sOldOnLoad] == 'function') {window[sOldOnLoad]();}}
+if (typeof require == 'function') {require(['dojo/ready'], function(ready){_onLoad();});} else if (typeof dojo != 'undefined' && typeof dojo != null && dojo.addOnLoad) {dojo.addOnLoad(_onLoad);} else {window[sOldOnLoad] = window.onload;window.onload = _onLoad;}
+})(window.oCV_NS_, '_NS_');
+//]]>
+</script>
+</body></html>
